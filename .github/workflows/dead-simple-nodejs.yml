@@ -4,6 +4,6 @@
   uses: dreamcodez/dead-simple-nodejs@1.0.1
   with:
     # nodejs version to install
-    NODE_VERSION: 
+    NODE_VERSION:
     # nodejs distro to install
     NODE_DISTRO: # default is linux-x64
