@@ -1,9 +1,0 @@
-name: second nodejs
-  # You may pin to the exact commit or the version.
-  # uses: dreamcodez/dead-simple-nodejs@f2058a4a027f56e3ee1ad49b596b603e02f02d0b
-  uses: dreamcodez/dead-simple-nodejs@1.0.1
-  with:
-    # nodejs version to install
-    NODE_VERSION:
-    # nodejs distro to install
-    NODE_DISTRO: # default is linux-x64
