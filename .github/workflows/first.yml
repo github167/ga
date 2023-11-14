@@ -3,8 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 env:
   username: "tom"
   
-on:
-  workflow_dispatch:
+on: [workflow_dispatch]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
