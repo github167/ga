@@ -6,7 +6,7 @@ env:
 on: [workflow_dispatch]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Test secret
         env:
