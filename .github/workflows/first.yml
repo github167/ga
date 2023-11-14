@@ -8,7 +8,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      env:
+      - env:
         one: ${{ secrets.secret_one }}
       - run: echo hello $username
       - run: echo hello again, $one
