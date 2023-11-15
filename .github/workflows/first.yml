@@ -25,5 +25,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: nodejs one-line
-        run: node =p "10+10"
+        run: node -p "10+10"
       - run: echo "🍏 This job's status is ${{ job.status }}."
