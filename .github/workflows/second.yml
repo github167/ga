@@ -4,7 +4,14 @@ on:
  - workflow_dispatch
 
 jobs:
-  main:
+  hello_world_job:
     runs-on: ubuntu-latest
+    name: A job to say hello
     steps:
-      - run: echo "Trigger ${{ github.event_name }}"
+      - name: Hello world action step
+      id: hello
+      uses: github167/ga@v1
+      with:
+        who-to-greet: 'tompeter'
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
