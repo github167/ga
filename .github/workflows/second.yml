@@ -1,4 +1,4 @@
-name: main
+name: second
 
 on: 
  - workflow_dispatch
