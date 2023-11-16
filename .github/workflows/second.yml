@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: github167/ga@v1
+      uses: github167/ga
       with:
         who-to-greet: 'tompeter'
     - name: Get the output time
