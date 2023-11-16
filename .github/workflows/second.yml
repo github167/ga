@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-    - name: Hello world action step@v1
+    - name: Hello world action step@
       id: hello
-      uses: github167/ga
+      uses: github167/ga@v1
       with:
         who-to-greet: 'tompeter'
     - name: Get the output time
