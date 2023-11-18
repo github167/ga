@@ -1,4 +1,4 @@
-name: second
+name: docker-flow
 
 on: 
  - workflow_dispatch
