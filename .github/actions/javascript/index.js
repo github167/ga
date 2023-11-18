@@ -1,5 +1,4 @@
 const core = require("@actions/core");
-const github = require("@actions/github");
 
 const firstGreeting = core.getInput("first-greeting");
 const secondGreeting = core.getInput("second-greeting");
