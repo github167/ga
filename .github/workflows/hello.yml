@@ -12,6 +12,15 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      username:
+        default: "abc"
+        description: "You username please: "
+        required: true
+      reason:
+        default: "no reason at all"
+        required: true
+        description: "Reason to live"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
